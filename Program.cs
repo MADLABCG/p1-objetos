@@ -4,6 +4,8 @@ transportacion.Carro carro = new("2.4 Litros", 4, 5, 6, true, "gasolina", "rojo"
 
 transportacion.Camion camion = new("7.8 Litros", 16, 2, 2, false, "diesel", "naranja", "MACK", 8000000, 3500, 3);
 
+camion.Marca = "Caterpillar";
+
 Console.WriteLine("CARRO:");
 Console.WriteLine(carro.ToString());
 Console.WriteLine("CAMION:");
