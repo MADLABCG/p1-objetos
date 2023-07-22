@@ -13,6 +13,8 @@ animales.Gato gato = new("Mamifero", 4, 2, "Gris", "Mauricio", "Angora");
 
 animales.Perro perro = new("Mamifero", 4, 5, "Marron", "Buster", "PitBull");
 
+gato.Raza = "Egipcio";
+
 Console.WriteLine("PERRO:");
 Console.WriteLine(perro.ToString());
 Console.WriteLine("GATO:");
