@@ -1,23 +1,23 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-transportacion.Carro carro = new("2.4 Litros", 4, 5, 6, true, "gasolina", "rojo", "Honda", 200000);
 
-transportacion.Camion camion = new("7.8 Litros", 16, 2, 2, false, "diesel", "naranja", "MACK", 8000000, 3500, 3);
+vida.Humano humano1 = new("Juan Jose", "Perez Garcia", "Masculino", 24, "12 Agosto 1999", "Marron", "Azul", 6);
 
-camion.Marca = "Caterpillar";
+vida.Humano humano2 = new("Anelisa Maria", "Urbaez Plasencia", "Femenina", 23, "12 Julio 2000", "Rubio", "Verdes", 5);
 
-Console.WriteLine("CARRO:");
-Console.WriteLine(carro.ToString());
-Console.WriteLine("CAMION:");
-Console.WriteLine(camion.ToString());
+vida.Dominicano dominicano1 = new("000-0000000-4", true,"Pedro Jose", "Martinez", "Masculino", 33, "28 Febrero 1990", "Negro", "Marrones", 6);
 
-animales.Gato gato = new("Mamifero", 4, 2, "Gris", "Mauricio", "Angora");
+dominicano1.Nombres = "Samuel";
+dominicano1.Apellidos = "Sosa";
 
-animales.Perro perro = new("Mamifero", 4, 5, "Marron", "Buster", "PitBull");
+Console.WriteLine("Humano 1:");
+Console.WriteLine(humano1.ToString());
+Console.WriteLine(" ");
+Console.WriteLine("Humano 2:");
+Console.WriteLine(humano2.ToString());
+Console.WriteLine(" ");
+Console.WriteLine("Dominicano 1:");
+Console.WriteLine(dominicano1.ToString());
 
-gato.Raza = "Egipcio";
-
-Console.WriteLine("PERRO:");
-Console.WriteLine(perro.ToString());
-Console.WriteLine("GATO:");
-Console.WriteLine(gato.ToString());
+string papa1 = "Hola";
+string papa2 = "Adios";
